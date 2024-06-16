@@ -42,6 +42,11 @@
               "type": "TARO_TABS_WIDGET",
               "hideCard": false,
               "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onTabSelected"
+                }
+              ],
               "leftColumn": 1,
               "dynamicBindingPathList": [],
               "isMobile": true,
@@ -49,6 +54,7 @@
               "isDeprecated": false,
               "rightColumn": 64,
               "widgetId": "ebvn2dq8eq",
+              "onTabSelected": "{{JSObject1.myFun1()}}",
               "isVisible": true,
               "list": [
                 {

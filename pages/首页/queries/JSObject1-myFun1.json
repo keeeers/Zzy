@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {}",
+      "body": "() => {\n  console.log(tabs1.selectedTab);\n  return tabs1.selectedTab;\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {}"
+      "() => {\n  console.log(tabs1.selectedTab);\n  return tabs1.selectedTab;\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

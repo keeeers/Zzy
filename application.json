@@ -3,6 +3,14 @@
     {
       "id": "首页",
       "isDefault": true
+    },
+    {
+      "id": "场景",
+      "isDefault": false
+    },
+    {
+      "id": "页面2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
