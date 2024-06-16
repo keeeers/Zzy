@@ -1,0 +1,130 @@
+{
+  "unpublishedPage": {
+    "name": "首页",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1292,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 71,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "tabs1",
+              "isCanvas": false,
+              "dynamicPropertyPathList": [],
+              "displayName": "标签导航",
+              "iconSVG": "/static/media/icon.2407b480cf7dba032301ddffdf2fd569.svg",
+              "searchTags": [
+                "tabs"
+              ],
+              "topRow": 16,
+              "bottomRow": 20,
+              "parentRowSpace": 10,
+              "showLoading": false,
+              "type": "TARO_TABS_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [],
+              "isMobile": true,
+              "key": "tzh2mjxsxq",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "ebvn2dq8eq",
+              "isVisible": true,
+              "list": [
+                {
+                  "name": "标签1",
+                  "id": 1
+                },
+                {
+                  "name": "标签2",
+                  "id": 2
+                },
+                {
+                  "name": "标签3",
+                  "id": 3
+                }
+              ],
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "nameKey": "name",
+              "defaultNum": "0"
+            },
+            {
+              "widgetName": "grid1",
+              "buttonColor": "#03b365",
+              "isCanvas": false,
+              "displayName": "网格",
+              "iconSVG": "/static/media/icon.8ced2ee28cf2035053835549eab9ded1.svg",
+              "searchTags": [
+                "grid"
+              ],
+              "topRow": 22,
+              "bottomRow": 50,
+              "parentRowSpace": 10,
+              "bordered": true,
+              "type": "TARO_GRID_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "titleColor": "#646566",
+              "leftColumn": 1,
+              "dynamicBindingPathList": [],
+              "gridType": "I_N",
+              "isMobile": true,
+              "cols": 4,
+              "key": "kvfo1ra76a",
+              "priceUnit": "￥",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "xcxoflletp",
+              "descriptionColor": "#DD4B34",
+              "isVisible": true,
+              "list": "[\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  }\n]",
+              "titleKey": "name",
+              "parentId": "0",
+              "urlKey": "url",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "gutter": "0"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "首页",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false,
+    "icon": "smile-o"
+  },
+  "deleted": false,
+  "gitSyncId": "666e95b69d28026fe78837fa_666e95b69d28026fe78837fc"
+}
