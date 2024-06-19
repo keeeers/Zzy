@@ -61,7 +61,7 @@
               "descriptionKey": "description",
               "descriptionColor": "#999",
               "isVisible": true,
-              "list": "[\n  {\n    \"url\":\"\",\n\t\t\"name\":\"设备名称\",\n\t\t\"id\":{{global.store.Itemid}}\n\t}\n]",
+              "list": "[\n  {\n    \"url\":\"\",\n\t\t\"name\":{{global.store.Itemid}},\n\t\t\"id\":1\n\t}\n]",
               "titleKey": "name",
               "parentId": "0",
               "urlKey": "url",
