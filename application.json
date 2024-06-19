@@ -9,7 +9,11 @@
       "isDefault": false
     },
     {
-      "id": "页面2",
+      "id": "我的",
+      "isDefault": false
+    },
+    {
+      "id": "设备详情",
       "isDefault": false
     }
   ],

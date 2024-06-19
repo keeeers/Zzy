@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "页面2",
-    "slug": "2",
+    "name": "我的",
+    "slug": "",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         },
         "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "页面2",
+        "id": "我的",
         "deleted": false,
         "policies": [],
         "userPermissions": []

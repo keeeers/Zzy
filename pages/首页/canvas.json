@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1292,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -81,6 +81,7 @@
               "widgetName": "grid1",
               "buttonColor": "#03b365",
               "isCanvas": false,
+              "dynamicPropertyPathList": [],
               "displayName": "网格",
               "iconSVG": "/static/media/icon.8ced2ee28cf2035053835549eab9ded1.svg",
               "searchTags": [
@@ -88,32 +89,38 @@
               ],
               "topRow": 22,
               "bottomRow": 50,
+              "enableEmptyButton": false,
               "parentRowSpace": 10,
               "bordered": true,
               "type": "TARO_GRID_WIDGET",
               "hideCard": false,
               "parentColumnSpace": 6.84375,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onItemClicked"
+                }
+              ],
               "titleColor": "#646566",
-              "leftColumn": 1,
+              "leftColumn": 0,
               "dynamicBindingPathList": [],
               "gridType": "I_N",
               "isMobile": true,
-              "cols": 4,
+              "cols": "3",
               "key": "kvfo1ra76a",
               "priceUnit": "￥",
               "isDeprecated": false,
-              "rightColumn": 64,
+              "rightColumn": 63,
               "widgetId": "xcxoflletp",
               "descriptionColor": "#DD4B34",
               "isVisible": true,
-              "list": "[\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\"\n  }\n]",
+              "list": "[\n  {\n    \"url\": \"\",\n    \"name\": \"文本\",\n\t\t\"id\":1\n  },\n  {\n    \"url\": \"\",\n    \"name\": \"文本\",\n\t\t\"id\":2\n  }\n]",
               "titleKey": "name",
               "parentId": "0",
               "urlKey": "url",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "gutter": "0"
+              "gutter": "0",
+              "onItemClicked": "{{Click_check.myFun1()}}"
             }
           ]
         },
