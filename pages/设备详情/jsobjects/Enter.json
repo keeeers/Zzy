@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "Enter",
+    "pageId": "设备详情",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "设备详情_Enter",
+  "deleted": false,
+  "gitSyncId": "666e95b69d28026fe78837fa_66724c059d28026fe7883b6f"
+}

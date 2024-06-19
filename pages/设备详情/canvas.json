@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 840,
+          "bottomRow": 810,
           "containerStyle": "none",
           "snapRows": 77,
           "parentRowSpace": 1,
@@ -43,7 +43,11 @@
               "dynamicTriggerPathList": [],
               "titleColor": "#646566",
               "leftColumn": 5,
-              "dynamicBindingPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "list"
+                }
+              ],
               "enableSwipe": true,
               "isMobile": true,
               "contentType": "I_N_D",
@@ -57,7 +61,7 @@
               "descriptionKey": "description",
               "descriptionColor": "#999",
               "isVisible": true,
-              "list": "[\n  {\n    \"url\": \"\",\n    \"name\": \"设备名称\",\n    \"description\": \"描述\"\n  }\n]",
+              "list": "[\n  {\n    \"url\":\"\",\n\t\t\"name\":\"设备名称\",\n\t\t\"id\":{{global.store.Itemid}}\n\t}\n]",
               "titleKey": "name",
               "parentId": "0",
               "urlKey": "url",
@@ -77,7 +81,7 @@
                 "list"
               ],
               "topRow": 26,
-              "bottomRow": 76,
+              "bottomRow": 65,
               "parentRowSpace": 10,
               "type": "TARO_LIST_WIDGET",
               "hideCard": false,
@@ -106,6 +110,43 @@
               "isLoading": false,
               "controlType": "BUTTON",
               "width": "100px"
+            },
+            {
+              "widgetName": "button1",
+              "onClick": "{{Enter.myFun1()}}",
+              "isCanvas": false,
+              "displayName": "按钮",
+              "iconSVG": "/static/media/icon.4d1a6789769ffbdc0548128f48d340db.svg",
+              "searchTags": [
+                "button"
+              ],
+              "topRow": 69,
+              "bottomRow": 73,
+              "parentRowSpace": 10,
+              "showLoading": true,
+              "type": "TARO_BUTTON_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 20,
+              "dynamicBindingPathList": [],
+              "text": "好的",
+              "isMobile": true,
+              "key": "95t27b8t6t",
+              "isDeprecated": false,
+              "rightColumn": 44,
+              "widgetId": "gjhjse4naj",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "rounded": true,
+              "fontSize": "16px"
             }
           ]
         },
